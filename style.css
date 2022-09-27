@@ -1,0 +1,568 @@
+
+*{
+    font-family: 'Courgette', cursive;
+  
+
+}
+#heading{
+    background: linear-gradient(
+        to right, 
+        hsl(270, 100%, 65%), 
+        hsl(276, 100%, 10%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      font-family: 'Courgette', cursive;
+
+}
+
+
+
+.clear{
+    clear: both;
+}
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+        
+
+    } 
+   
+   @media screen and (max-width:480px) {
+       
+  #main{
+display: none;  }
+   
+
+   .ahadith .card{
+       margin-top: 2.5%;
+       margin-bottom: 2.5%;
+   }
+
+   .view{
+       margin-top: 10%;
+   }
+
+   .partners{
+    margin-top: 80% !important;
+    }
+
+    .footer{
+        margin-top: 20% !important;
+    }
+
+
+    .ayat{
+        margin-bottom: 10% !important;
+        line-height: 2em;
+    }
+    .eng{
+        line-height: 2em;
+    }
+  
+    .fa-arrow-alt-circle-up{
+        right:2%;
+    }
+}
+
+body{
+
+    scroll-behavior: smooth;
+    
+}
+
+
+.view,body,html{  height:100%}
+
+.navbar{
+    background-color:rgba(31, 0, 56, 0.548);
+}
+.navbar-nav .nav-link{
+    color: rgb(255, 221, 28) !important;
+    font-size: 20px !important;
+}
+.navbar-nav .nav-link:hover{
+    background-color: rgba(117, 87, 141, 0.52);
+    border-radius: 15px;
+}
+
+.page-footer,.top-nav-collapse
+{background-color:#1C2331
+}@media only screen and (max-width:768px)
+{.navbar{background-color:#1a003b}
+
+
+}
+
+
+.btn-secondary{
+    margin-top: 25% ;
+    margin-left: 40%;
+    padding: 20px 20px!important;
+    background-color:  rgba(128, 0, 128, 0.589) !important ;
+    border-radius: 10px!important;
+    color: white !important;
+    font-size: 25px !important;
+}
+ 
+#main{
+    margin-left:42%;
+    margin-top: -10%;
+    background-color:  rgba(59, 0, 59, 0.705) !important;
+    border :none;
+    font-family: 'Courgette', cursive;
+font-size: 20px;
+}
+
+#main:hover{
+    background-color: rgba(0, 0, 0, 0.822) !important;
+    color: white !important;
+}
+
+#feelings{
+   display: flex;
+}
+.feelings{
+   
+ 
+    background-color:black !important ;
+    color: rgb(255, 255, 255) !important;
+    text-align:  center;
+   border-top: 2px dotted rgb(142, 4, 155) !important;
+   border-bottom: 2px dotted rgb(140, 1, 168) !important;
+  border-right: none;
+  border-left:none ;
+  font-family: 'Courgette', cursive;
+
+  font-size: 15px!important;
+
+}
+.feelings:hover{
+    background-color: black !important;
+
+}
+
+.fa-arrow-alt-circle-up{
+    font-size: 40px !important;
+    margin-left: 95%;
+    color: rgb(147, 45, 194);
+    position: fixed;
+    font-size: 50px !important;
+bottom: 5%;
+
+}
+
+.jumbotron-fluid{
+    
+    background-image: url("bg.jpg");
+    margin-top: 0.5%;
+  
+    color: yellow;
+}
+
+.eng{
+    color: white !important;
+    font-size: 25px;
+    text-align: center;
+    border-top: 2px dashed yellow;
+}
+
+.ayat{
+   text-align: center;
+   font-family: 'Noto Nastaliq Urdu', serif;
+        font-size: 40px !important;
+        margin-bottom: 3%;
+    
+}
+
+
+.footer {
+    background-color:rgb(21, 0, 39);
+    background-size: cover;
+    
+    
+}
+
+
+.first a{
+    color: white !important;
+}
+
+
+.first {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+}
+
+    .first h4 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        color: #fff;
+        padding-bottom: 0.5em;
+    }
+
+        .first h4::after {
+            content: '';
+            background:  rgb(255, 217, 0);
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .first a:hover{
+            color:  rgb(255, 217, 0) !important;
+          
+            transition: 1s;
+        }
+
+    .first p {
+        font-size: 14px;
+    }
+
+.second {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.second2 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.second h4 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    color: #fff;
+    padding-bottom: 0.5em;
+}
+
+    .second h4::after {
+        content: '';
+        background:  rgb(255, 217, 0);
+        width: 20%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+    }
+
+
+.second li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.second a, .second2 a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+    .second a:hover, .second2 a:hover {
+        color: #fff;
+        transition: 0.2s;
+        text-shadow: 1px 1px 20px rgba(0,0,0,1);
+        text-decoration: none
+
+    }
+
+
+
+.third {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(206,206,206);
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
+
+
+    .third h4 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        position: relative;
+        margin-bottom: 20px;
+        font-size: 1.6em;
+        color: #fff;
+        padding-bottom: 0.5em;
+    }
+
+
+        .third h4::after {
+            content: '';
+            background:  rgb(255, 217, 0);
+            width: 20%;
+            height: 2px;
+            position: absolute;
+            bottom: 0;
+            left: 80%;
+        }
+
+
+
+    .third li {
+        list-style: none;
+        padding-bottom: 15px;
+    }
+
+
+
+@media screen and (max-width:1000px) {
+    .first {
+        text-align: center;
+    }
+
+        .first h4::after {
+            left: 40%;
+        }
+}
+
+@media screen and (max-width:1000px) {
+    .third {
+        text-align: center;
+    }
+
+        .third h4::after {
+            left: 40% !important;
+        }
+}
+
+.margin {
+    margin-left: 20px;
+}
+
+.line {
+    height:2px;
+    background-color:rgb(206,206,206);
+    width:100%;
+}
+
+.container h1{
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.aotd {
+    width: 40%;
+    height: 400px;
+    /* background-color: red; */
+  
+}
+.aotd img{
+    width: 100%;
+     transition: all .2s ease-in-out; 
+
+}
+.aotd img:hover{
+    
+ transform: scale(1.1); }
+    
+
+.aotd2  {
+    width: 80%;
+    height: 400px;
+    text-align: center;
+   
+
+}
+
+
+
+.aotd2 h1{
+    background: linear-gradient(
+        to right, 
+        hsl(270, 100%, 65%), 
+        hsl(276, 100%, 10%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+}
+
+
+.ahadith{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Noto Nastaliq Urdu', serif !important;
+    color:  white !important;
+    margin-bottom: 2.5%;
+}
+.ahadith .card-body{
+    background-color: rgba(27, 0, 27, 0.904) !important;
+    
+}
+.ahadith img{
+    filter: grayscale(1);
+}
+.ahadith :hover {
+    box-shadow: 2px 2px 2px 3px rgb(117, 85, 117);
+
+}
+
+.ahadith .card:hover img{
+ filter: none;
+ box-shadow: 2px 2px 2px 3px rgb(117, 85, 117);
+ transition: 0.5s;
+
+}
+
+.partners{
+    margin-top: 10%;
+}
+
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 25px auto;
+    font-size: 18px;
+    color: #999;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+.tz-gallery .lightbox:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: rgba(84, 19, 146, 0.7);
+    content: '';
+    transition: 0.4s;
+}
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+}
+
+#motivational{
+    margin-top: 2.5%;
+}
+
+
+
+
+.form    {
+    padding: 30px 40px;
+    margin-bottom: 60px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(46, 0, 68, 0.438)
+}
+
+
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer;
+;    color:yellow !important;
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+#submit{
+    background-color:  rgba(25, 0, 47, 0.836);
+}
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+
+
+
+
+
